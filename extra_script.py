@@ -23,7 +23,8 @@ boards_metas = {
     "zero" : "colcon_verylowmem.meta",
     "pico": "colcon.meta",
     "nucleo_f103rb": "colcon_verylowmem.meta",
-    "nucleo_f767zi": "colcon.meta"
+    "nucleo_f767zi": "colcon.meta",
+    "nucleo_h743zi": "colcon.meta"
 }
 
 project_options = env.GetProjectConfig().items(env=env["PIOENV"], as_dict=True)
